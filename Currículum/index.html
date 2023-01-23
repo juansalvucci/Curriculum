@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/703a3c55c7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="botones">
+          <a href="#home" id="homeIcon"
+            ><i class="fa-sharp fa-solid fa-house"></i
+          ></a>
+          <a href="#personal" id="boton1" class="boton">INFORMACIÓN PERSONAL</a>
+          <a href="#academicos" id="boton2" class="boton">DATOS ACADÉMICOS</a>
+          <a href="#habilidades" id="boton3" class="boton">HABILIDADES</a>
+          <a href="#experiencia" id="boton4" class="boton">EXPERIENCIA</a>
+          <a href="#contacto" id="boton5" class="boton">CONTACTO</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="secciones">
+        <section id="home">
+          <h1>Currículum Vitae</h1>
+          <h2>Juan Ignacio Salvucci</h2>
+          <img
+            src="./images/juan_salvucci.jpg"
+            alt="Foto carnet de Juan Salvucci"
+          />
+        </section>
+
+        <section id="personal">
+          <h2><i class="fa-solid fa-id-card"></i> Información Personal:</h2>
+          <ul>
+            <li><strong>Nombre y apellido:</strong> Juan Ignacio Salvucci</li>
+            <li><strong>D.N.I:</strong> 30.530.335</li>
+            <li><strong>Fecha de nacimiento:</strong> 14/09/1983</li>
+            <li><strong>Nacionalidad:</strong> Argentina.</li>
+            <li>
+              <strong>Lugar de nacimiento:</strong> General Belgrano, pcia. de
+              Buenos Aires.
+            </li>
+            <li><strong>Lugar de residencia:</strong> General Belgrano.</li>
+            <li><strong>Dirección:</strong> Calle 8 Nº 206</li>
+          </ul>
+        </section>
+
+        <section id="academicos">
+          <h2><i class="fa-solid fa-graduation-cap"></i> Datos Académicos:</h2>
+          <ul>
+            <li>
+              Secundaria completa, bachiller modalidad Ciencias Naturales.
+              (Escuela de Educación Media Nº1 Regimiento de Patricios. Gral.
+              Belgrano).
+            </li>
+            <li>
+              Curso de electricista instalador. Completo. 1 año. (Centro de
+              Formación Profesional Nº401, Gral. Belgrano).
+            </li>
+            <li>
+              Curso de Mezcla y Mastering musical. Completo. 32hs (Facultad de
+              Bellas Artes, Universidad Nacional de La Plata).
+            </li>
+            <li>
+              Tecnicatura universitaria en mecanización agropecuaria. Completa,
+              3 años (2014 – 2016). (Centro Inter Universitario de General
+              Belgrano, extensión de Facultad de Ingeniería de la Universidad
+              Nacional de Lomas de Zamora).
+            </li>
+            <li>
+              Curso Introductorio de Python online. Completo. Agosto 2021. (IEEE
+              / Instituto Tecnológico de Buenos Aires).
+            </li>
+            <li>
+              Tecnicatura universitaria en programación informática. Completa, 5
+              años (2018 - 2022). Título en trámite. (Centro Inter Universitario
+              de General Belgrano, extensión de la Universidad Nacional de
+              Quilmes).
+              <div>
+                <button type="button" id="botonInfo">
+                  <i class="fa-solid fa-play"></i> Más Información de la carrera
+                </button>
+              </div>
+
+              <div id="info" style="display: none">
+                <ul>
+                  <li>
+                    <strong>Carrera:</strong> Tecnicatura Universitaria en
+                    Programación Informática
+                  </li>
+                  <li><strong>Departamento:</strong> Ciencia y Tecnología</li>
+                  <li><strong>Tipo:</strong> Tronco único</li>
+                  <li><strong>Título:</strong> Tecnicatura universitaria</li>
+                  <li><strong>Nivel:</strong> Pregrado</li>
+                </ul>
+                <button type="button" id="botonCierre">Cerrar</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="habilidades">
+          <h2><i class="fa-solid fa-laptop-code"></i> Habilidades:</h2>
+
+          <h3><i class="fa-solid fa-keyboard"></i> Informática:</h3>
+
+          <h4>
+            Algunos de los lenguajes de programación usados durante la
+            tecnicatura:
+          </h4>
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Haskell</li>
+            <li>Scala</li>
+            <li>JavaScript</li>
+            <li>Tecnologías: React, Nodejs, MongoDB, MySQL, WebSockets</li>
+          </ul>
+
+          <div>
+            <a href="https://gitlab.com/juansalvucci" target="_blank"
+              ><i class="fa-solid fa-play"></i> Perfil en gitlab</a
+            >
+          </div>
+          <div>
+            <a href="https://github.com/juansalvucci" target="_blank"
+              ><i class="fa-solid fa-play"></i> Perfil en github</a
+            >
+          </div>
+
+          <h3><i class="fa-solid fa-book-open"></i> Idiomas:</h3>
+          <ul>
+            <li>Inglés: nivel medio/alto.</li>
+          </ul>
+        </section>
+
+        <section id="experiencia">
+          <h2><i class="fa-solid fa-briefcase"></i> Experiencia:</h2>
+          <ul>
+            <li>
+              Técnico de sonido e iluminación en empresa Mixture Producciones,
+              General Belgrano. Desde el año 2011 a la actualidad.
+            </li>
+            <li>Servicios técnicos particulares de informática y hardware.</li>
+          </ul>
+        </section>
+        <section id="contacto">
+          <h2><i class="fa-solid fa-envelope"></i> Contacto:</h2>
+          <ul>
+            <li><strong>Celular:</strong> (02241) 15 570753</li>
+            <li>
+              <a href="mailto:juani.salvucci@gmail.com">E-mail:</a>
+              juani.salvucci@gmail.com
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>2023</footer>
+    <script src="js/function.js"></script>
+  </body>
+</html>
