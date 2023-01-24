@@ -3,8 +3,9 @@
 }
 
 body {
-    background-color: rgb(116, 164, 206);
-    font-family:Verdana;color:#000000;    
+    background-color: rgb(137, 179, 216);
+    font-family:Verdana;color:#000000;
+    margin: 0;    
 }
 
 @media screen and (max-width: 600px) {
@@ -14,17 +15,16 @@ body {
 }
 
 header {
-    background-image: linear-gradient(#314ff9, rgba(37, 113, 179, 0.119));
-    margin: -0.5%;
+    background-image: linear-gradient(#2e46cc, rgba(37, 113, 179, 0.158));    
     position: sticky;
     top: 0;
 }
 
 nav {
     padding: 1%;
-    margin-left: 20%;    
-    margin-right: 15%;
-    text-shadow: 2px 2px 3px #90acae;
+    margin-left: 25%;    
+    margin-right: 18%;
+    text-shadow: 2px 2px 2px #bcd1d1ce;
 }
 
 a.boton {
@@ -33,12 +33,12 @@ a.boton {
     appearance: button;
     text-decoration: none;
 
-    border: 2px solid blueviolet;
+    border: 2px solid rgba(61, 43, 226, 0.829);
     margin: 0.5%;
     padding: 1%;
     background-color: antiquewhite;
     font-size: 13px; 
-    font-weight: 600;
+    font-weight: 550;
     text-align: center;
     display: inline-block;
     border-radius: 5px;
@@ -48,7 +48,7 @@ a.boton {
 section {    
     justify-content: center;
     align-items: center;
-    background-color: rgba(181, 214, 243, 0.648);
+    background-color: rgb(192, 219, 243);
     border: 1px solid;
     margin-top: 4%;
     margin: 3%;
@@ -60,17 +60,17 @@ section {
 h1 {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 0;
     text-shadow: 3px 3px 4px #cdeaee;
+    margin-top: 0%;
 }
 
 h2, h3 {
-    text-shadow: 3px 3px 4px #c8dcdf;
+    text-shadow: 4px 4px 5px #c8dcdf;
 }
 
 img {
-    max-width: 25%; height: auto;
-    box-shadow: 4px 4px 6px rgb(48, 8, 86);
+    max-width: 23%; height: auto;
+    box-shadow: 4px 4px 6px rgb(0, 0, 0);
 }
 
 section#home h2{
@@ -81,20 +81,26 @@ section#home {
     text-align: center;
     min-height: 100%;
     margin-top: 0%;
+    padding-bottom: 7%;
 }
 
 section#academicos li {
     padding: 1%;
 }
 
+section#experiencia li {
+    padding: 1%;
+}
+
+
 button {
     padding: 0.5%;
     margin: 1%;
     font-size: medium;    
-    background-color: antiquewhite;
+    background-color: rgb(255, 244, 229);
     border-radius: 5px;
-    text-shadow: 2px 2px 3px #9cb2b4;
-    box-shadow: 2px 2px 5px rgb(102, 148, 162);
+    text-shadow: 2px 2px 3px #bad4d6;
+    box-shadow: 2px 2px 3px rgb(175, 214, 224);
     cursor: pointer
 }
 
@@ -107,18 +113,17 @@ button {
     margin: 2%;
     padding: 1%;
     border: 1px solid black;
-    background-color: rgba(225, 237, 233, 0.433);
+    background-color: rgba(225, 237, 233, 0.74);
     box-shadow: 3px 3px 5px rgb(85, 126, 138);
 }
 
 footer {
     text-align: right;
+    font-weight: 600;
     margin-top: 10%;
-    margin-left: -0.5%;
-    margin-right: -0.5%;
     margin-bottom: -1%;
     padding: 3%;
-    background-image: linear-gradient( rgba(37, 113, 179, 0.051), #314ff9);
+    background-image: linear-gradient( rgba(37, 113, 179, 0.051), #4861ec9d);
     text-shadow: 3px 3px 4px #ebf4f6;
 }
 
